@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100d20" />
+  <meta name="description" content="Mindset — create, connect and share. AI creator tools and a moderated community." />
+  <title>Mindset — Create. Connect. Share.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Mindset home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>mindset</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#tools">AI tools</a><a href="#community">Community</a><a href="#how">How it works</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn btn-quiet" id="loginBtn">Log in</button>
+      <button class="btn btn-primary" id="joinBtn">Join Mindset <span>↗</span></button>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR CREATIVE WORLD STARTS HERE</div>
+        <h1>Make something<br><span class="gradient-text">worth sharing.</span></h1>
+        <p class="hero-lead">Turn a spark of an idea into content. Create, discover and share with a community built for everyday creators.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-large" href="#tools">Explore AI tools <span>↗</span></a>
+          <a class="btn btn-outline btn-large" href="#community">Explore community</a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><i>V</i><i>A</i><i>M</i><i>+</i></div><span>A new space for your next big idea.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-card card-main">
+          <div class="visual-sun"></div><div class="visual-hill hill-one"></div><div class="visual-hill hill-two"></div>
+          <div class="visual-label"><span>✦</span> YOUR NEXT CREATION</div>
+          <div class="visual-play">▶</div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-icon">✦</span><span><b>AI magic</b><small>One idea, many formats</small></span></div>
+        <div class="float-chip chip-bottom"><span class="chip-icon chip-pink">↗</span><span><b>Made to share</b><small>Your creativity travels</small></span></div>
+      </div>
+    </section>
+
+    <section class="stats section">
+      <div><strong>01</strong><span>Make content</span></div><div><strong>02</strong><span>Share your work</span></div><div><strong>03</strong><span>Find your people</span></div>
+    </section>
+
+    <section class="section tools-section" id="tools">
+      <div class="section-heading"><div><div class="eyebrow">CREATE WITHOUT LIMITS</div><h2>Your ideas, <span class="gradient-text">reimagined.</span></h2></div><p>Simple creative tools to help you get from “what if?” to “look at this”.</p></div>
+      <div class="tool-grid">
+        <article class="tool-card tool-featured"><div class="tool-icon">▧</div><div class="tool-tag">PHOTO MAGIC</div><h3>Photo to video</h3><p>Bring a still image to life with movement, transitions and a little imagination.</p><a href="#how">Explore the workflow <span>↗</span></a><div class="tool-art photo-art"><div class="photo-frame"></div><div class="spark s1">✦</div><div class="spark s2">✧</div></div></article>
+        <article class="tool-card"><div class="tool-icon">Aa</div><div class="tool-tag">IDEA TO STORY</div><h3>Text to video</h3><p>Turn a short prompt into a script, storyboard and social-ready scenes.</p><a href="#how">Explore the workflow <span>↗</span></a><div class="mini-lines"><i></i><i></i><i></i></div></article>
+        <article class="tool-card"><div class="tool-icon">◖</div><div class="tool-tag">SPEAK IT</div><h3>Voice to video</h3><p>Say what you have in mind. Shape your spoken idea into a video plan.</p><a href="#how">Explore the workflow <span>↗</span></a><div class="voice-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+        <article class="tool-card"><div class="tool-icon">⌁</div><div class="tool-tag">MOVE DIFFERENT</div><h3>Motion effects</h3><p>Add camera movement, zooms and transitions to give your visuals energy.</p><a href="#how">Explore the workflow <span>↗</span></a><div class="motion-rings"></div></article>
+        <article class="tool-card"><div class="tool-icon">#</div><div class="tool-tag">SAY IT BETTER</div><h3>Captions & hashtags</h3><p>Find the right hook, caption and hashtags for your next post.</p><a href="#how">Explore the workflow <span>↗</span></a><div class="hashtag-art">#create<br>#yourstory</div></article>
+        <article class="tool-card tool-community"><div class="tool-icon">◎</div><div class="tool-tag">FIND YOUR PEOPLE</div><h3>Creator community</h3><p>Publish your work, get discovered and share inspiration with others.</p><a href="#community">Visit community <span>↗</span></a><div class="community-orbs"><i></i><i></i><i></i></div></article>
+      </div>
+      <p class="note">Some AI generation features require a connected AI provider and may have usage limits. The first release focuses on scripts, storyboards, captions and simple editing workflows.</p>
+    </section>
+
+    <section class="community-section section" id="community">
+      <div class="section-heading"><div><div class="eyebrow">THE MINDSET COMMUNITY</div><h2>Good ideas <span class="gradient-text">travel.</span></h2></div><div class="community-actions"><span class="moderation-note">✦ Every post is reviewed before it goes public.</span><button class="btn btn-primary" id="createPostBtn">＋ Create a post</button></div></div>
+      <div class="feed-toolbar"><div class="feed-tabs"><button class="active" data-filter="all">Discover</button><button data-filter="image">Photos</button><button data-filter="video">Videos</button></div><span class="feed-status" id="feedStatus">Community highlights</span></div>
+      <div class="feed-grid" id="feedGrid">
+        <article class="post-skeleton"><div></div><span>Connect your project to load community posts.</span></article>
+        <article class="post-skeleton"><div></div><span>Approved creator posts will appear here.</span></article>
+        <article class="post-skeleton"><div></div><span>Your community starts with one idea.</span></article>
+      </div>
+    </section>
+
+    <section class="how-section section" id="how">
+      <div class="section-heading"><div><div class="eyebrow">FROM IDEA TO EVERYWHERE</div><h2>One place. <span class="gradient-text">Many possibilities.</span></h2></div><p>Start on the web. Continue on Android. Your creator community stays connected.</p></div>
+      <div class="steps"><div class="step"><span>01</span><div class="step-icon">✦</div><h3>Create</h3><p>Use creator tools to shape your photos, prompts and ideas.</p></div><div class="step"><span>02</span><div class="step-icon">↥</div><h3>Submit</h3><p>Publish from the website or your Android app. New posts enter review.</p></div><div class="step"><span>03</span><div class="step-icon">◉</div><h3>Get discovered</h3><p>Once approved, your post appears in the public community feed.</p></div><div class="step"><span>04</span><div class="step-icon">↗</div><h3>Share</h3><p>Share an approved post link with your social networks.</p></div></div>
+    </section>
+
+    <section class="download-banner section" id="download">
+      <div><div class="eyebrow">CREATE ON THE GO</div><h2>Your creative space<br>fits in your pocket.</h2><p>Mindset is being built for Android and the web. The app download link will appear here when your Android release is ready.</p><span class="coming-soon">ANDROID APP · COMING SOON</span></div>
+      <div class="phone-mock"><div class="phone-screen"><div class="phone-top"><b>mindset</b><span>•••</span></div><div class="phone-greeting">Make today<br><em>creative.</em></div><div class="phone-tool-row"><i>▧</i><i>Aa</i><i>◖</i></div><div class="phone-post"></div><div class="phone-nav">⌂　✦　＋　◎　◉</div></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark"><span></span><span></span><span></span></span><span>mindset</span></a><span>CREATE · CONNECT · SHARE</span><div><a href="#tools">AI tools</a><a href="#community">Community</a><a href="#how">About</a><a href="mailto:hello@mindset.example">Contact</a></div><small>© <span id="year"></span> Mindset. Built for creators.</small></footer>
+
+  <dialog id="authDialog" class="modal">
+    <form method="dialog" class="modal-close"><button aria-label="Close">×</button></form>
+    <div class="modal-brand">✦ MINDSET</div><h2 id="authTitle">Welcome to Mindset</h2><p id="authSubtitle">Sign in or create your free creator account.</p>
+    <form id="authForm" class="form-stack"><label>Email<input type="email" id="authEmail" required autocomplete="email" placeholder="you@example.com"></label><label>Password<input type="password" id="authPassword" required minlength="8" autocomplete="current-password" placeholder="At least 8 characters"></label><label id="displayNameWrap" class="hidden">Display name<input id="displayName" maxlength="40" placeholder="Your creator name"></label><button class="btn btn-primary btn-full" id="authSubmit">Log in</button></form>
+    <button class="text-button" id="authModeToggle">New here? Create an account</button><p class="form-message" id="authMessage" role="status"></p>
+  </dialog>
+
+  <dialog id="postDialog" class="modal modal-wide">
+    <form method="dialog" class="modal-close"><button aria-label="Close">×</button></form>
+    <div class="modal-brand">✦ COMMUNITY POST</div><h2>Share something you made.</h2><p>Your post will be private until the Mindset admin approves it.</p>
+    <form id="postForm" class="form-stack"><label>Caption<textarea id="postCaption" maxlength="1200" required placeholder="Tell the community about your creation..."></textarea></label><label>Photo or video<input id="postFile" type="file" accept="image/jpeg,image/png,image/webp,video/mp4,video/webm" required></label><small class="muted">Maximum 50 MB. Supported: JPG, PNG, WebP, MP4 and WebM.</small><button class="btn btn-primary btn-full" id="publishBtn">Submit for review</button></form><p class="form-message" id="postMessage" role="status"></p>
+  </dialog>
+
+  <dialog id="adminDialog" class="modal modal-wide">
+    <form method="dialog" class="modal-close"><button aria-label="Close">×</button></form>
+    <div class="modal-brand">✦ MINDSET ADMIN</div><h2>Review submissions</h2><p>Approve appropriate posts to make them public, or reject them.</p><div id="adminQueue" class="admin-queue"><p class="muted">Sign in with an administrator account to view pending posts.</p></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
