@@ -1,7 +1,7 @@
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-const SUPABASE_URL = ''; // Add your project URL from Supabase > Project Settings > API
-const SUPABASE_ANON_KEY = ''; // Add your publishable/anon key. NEVER put a service_role key here.
+const SUPABASE_URL = 'https://cemcxdmlptkmdulmnibb.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_R0L-c3kTfLtDyHx_ej9-Dg_E858r5uk';
 const supabase = SUPABASE_URL && SUPABASE_ANON_KEY ? createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
 
 const $ = (id) => document.getElementById(id);
